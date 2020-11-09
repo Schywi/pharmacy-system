@@ -1,0 +1,55 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+  /* Background*/
+ 
+    background: url(quimica.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+}
+
+h1{ 
+  font-size: 3rem;
+  color: #181717;
+  font-family: 'Beaufort for LOL';
+ text-align: center;
+}
+
+.btn { 
+  font-size: 0.85rem;
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+}
+
+.btn-primary { 
+  background-color: #00ACEE;
+  border-color: #00ACEE;
+}
+
+.btn-primary:hover { 
+ 
+  background-color: #00ACEE;
+  border-color: #00ACEE;
+  transition: 1s ;
+  transform: scale(1.1);
+}
+ 
+
+
+.buffer{ 
+  height: 10rem;
+}
+
+hr{ 
+  max-width: 65px;
+  border-color: #00ACEE;
+  border-width: 3px;
+}
